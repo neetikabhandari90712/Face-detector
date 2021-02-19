@@ -24,4 +24,7 @@ while True:
     #Stop if Q key is pressed
     if key==81 or key == 113:
         break
-
+        
+# Realease the Video Capture object
+webcam.release()
+print('Code Completed')
